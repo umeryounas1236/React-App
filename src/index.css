@@ -1,13 +1,65 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1 {
+  font-size: 3rem;
+  font-weight: 100;
+  color: rgb(44, 46, 49);
+  margin: 0;
+}
+h5 {
+  margin: 2px;
+  text-align: initial;
+  font-size: 1.5rem;
+  display: inline-block;
+}
+p {
+  font-size: 1.1rem;
+  font-weight: 300;
+  color: rgb(44, 46, 49);
+}
+input {
+  font-size: 1rem;
+}
+.container {
+  text-align: -webkit-center;
+}
+.content {
+  max-width: 50%;
+  border: 1px solid royalblue;
+  padding: 20px;
+  margin-top: 50px;
+  background: salmon;
+}
+.form {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.btn {
+  color: rgb(44, 46, 49);
+  padding: 0 20px;
+  font-size: 2rem;
+  font-weight: 600;
+}
+.model-content {
+  background: green;
+  width: fit-content;
+}
+._content {
+  margin-top: 0;
+  text-align: initial;
+}
+.item {
+  text-align: initial;
+  display: inline-block;
+  margin-right: 80%;
+}
+.btn-remove {
+  font-size: 1rem;
+  font-weight: 300;
+  margin-left: 40%;
+  background: lightpink;
+  margin-bottom: 4px;
+  width: 40%;
 }
